@@ -1,0 +1,8 @@
+{
+  "output_root": "C:/cursor projects/AriS_運営/automation/output",
+  "default_tags": ["AriS", "LyricVideo", "オリジナル曲"],
+  "ffmpeg_path": "C:/cursor projects/AriS_運営/automation/tools/ffmpeg/bin/ffmpeg.exe",
+  "default_privacy_status": "private",
+  "youtube_client_secret_path": "C:/path/to/client_secret.json",
+  "youtube_token_path": "C:/cursor projects/AriS_運営/automation/token.json"
+}

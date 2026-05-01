@@ -1,0 +1,20 @@
+---
+description: Auto stage and commit at session end cues
+alwaysApply: true
+---
+
+# Session End Git Rule
+
+When the user indicates they are wrapping up (examples: "今日はこのぐらいで", "いったん終わろう", "今日はここまで"), do the following by default:
+
+1. Run `git add -A` in the repository root.
+2. Create one commit that summarizes the work completed in that session.
+3. Run `git push` to the tracked remote branch.
+4. Report commit hash, push result, and key included changes.
+
+If the end-of-session intent is ambiguous, ask a short confirmation before committing.
+
+This project preference is to push automatically at session end cues.
+If no remote or upstream is configured, ask a short question once, then proceed after user reply.
+
+If there are no changes, report that there is nothing to commit.

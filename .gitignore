@@ -1,0 +1,5 @@
+AriS_運営/automation/tools/
+AriS_運営/automation/output/
+AriS_運営/automation/__pycache__/
+AriS_運営/automation/*.pyc
+AriS_運営/automation/token.json
